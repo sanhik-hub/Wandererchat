@@ -11,7 +11,7 @@ from telegram.ext import (
 )
 
 # Configuration
-TOKEN = os.getenv('8066444127:AAFGRH7J21Xry35zo8kPdexmjk8JdPL7S2c')
+TOKEN = ('8066444127:AAFGRH7J21Xry35zo8kPdexmjk8JdPL7S2c')
 OPENAI_API_KEY = os.getenv('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')
 OPENAI_API_URL = "https://api.openai.com/v1/chat/completions"
 WEBHOOK_URL = os.getenv('RENDER_EXTERNAL_URL')
